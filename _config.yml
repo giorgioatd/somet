@@ -1,0 +1,40 @@
+# Site settings
+title: Somato Emozionale
+description: "Osteopatia somato-emozionale: principi di una metodica che aiuta a mantenere e promuovere l'equilibrio dell'organismo"
+url: "www.somatoemozionale.it"
+
+# Serving
+baseurl: ""
+
+# Author settings
+author:
+  name: Daniele Pintus
+  email: "d.pintus@gmail.com"
+  facebook: "https://www.facebook.com/osteopatiaadomiciliocagliari"
+  google_plus: "https://plus.google.com/118404797640034455123"
+  linkedin: "https://it.linkedin.com/in/daniele-pintus-21641235"
+  youtube: "https://www.youtube.com/channel/UCaNws2LFrsHvtkJ1D9OjVQA"
+  number: "328 133 4639"
+
+# Sass
+sass:
+  style: :compressed
+
+# Handling Reading
+include:      [".htaccess"]
+exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store"]
+
+
+# Plugins
+#whitelist: []
+gems:
+  - jekyll-seo-tag
+
+# Conversion
+markdown:    kramdown
+
+# Outputting
+timezone:      Europe/Rome
+
+# Services
+#google_analytics: 'UA-XXXXXXXX-X'

@@ -1,0 +1,116 @@
+<header>
+{% include nav.html %}
+
+{% if page.type == "home" %}
+<section id="showcase" class="showcase secpt">
+<div class="container">
+  <div class="row">
+
+
+  <div class="col-xs-12">
+    <div class="media-object block logo">
+    <img src="img/logo90.png" class="img-rounded img-responsive">
+    </div>
+  </div>
+
+  <div class="col-xs-0 col-sm-1 col-md-2 col-lg-0">
+  </div>
+  <div class="col-xs-12 tidl col-sm-10 col-md-8 col-lg-12">
+      <h1>{{ site.title }}</h1>
+      <p class="lead">{{ site.description }}</p>
+  </div>
+  <div class="col-xs-0 col-sm-1 col-md-2 col-lg-0">
+  </div>
+  </div>
+
+  </div><!-- /.container -->
+</section class="secpt">
+  {% endif %}
+
+  {% if page.type == "info" %}
+  <section id="whoamicar" class="section-carousel">
+
+  <div class="container">
+    <div class="row">
+<div id="carousel-so" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#carousel-so" data-slide-to="0" class="active"></li>
+  <li data-target="#carousel-so" data-slide-to="1"></li>
+  <li data-target="#carousel-so" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="img/car/car1.jpg" alt="">
+    <div class="carousel-caption">
+
+    </div>
+  </div>
+  <div class="item">
+    <img src="img/car/car2.jpg" alt="">
+    <div class="carousel-caption">
+
+    </div>
+  </div>
+  <div class="item">
+    <img src="img/car/car3.jpg" alt="">
+    <div class="carousel-caption">
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-so" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Precedente</span>
+</a>
+<a class="right carousel-control" href="#carousel-so" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Successiva</span>
+</a>
+<h1>page.title</h1>
+<h1>{{ site.baseurl }}</h1>
+</div>
+
+
+    </div><!-- /.container -->
+    </section>
+  {% endif %}
+
+  {% if page.type == "colophon" %}
+  <h1>Colophon</h1>
+  {% endif %}
+
+  {% if page.type == "privacy" %}
+  <h1>Privacy</h1>
+  {% endif %}
+
+  {% if page.type == "sitemap" %}
+  <h1>Sitemap</h1>
+  {% endif %}
+
+  {% if page.type == "403" %}
+  <h1>403</h1>
+  {% endif %}
+
+  {% if page.type == "404" %}
+  <h1>404</h1>
+  {% endif %}
+
+  {% if page.type == "410" %}
+  <h1>410</h1>
+  {% endif %}
+
+  {% if page.type == "500" %}
+  <h1>500</h1>
+  {% endif %}
+
+  {% if page.type == "504" %}
+  <h1>504</h1>
+  {% endif %}
+
+  </header>

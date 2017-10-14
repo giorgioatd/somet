@@ -1,0 +1,33 @@
+.cookie-message{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	color:#ccc;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	transition: bottom 0.2s ease-in-out;
+
+}
+
+.cookie-message a {
+	color:#ccc;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cookie-message a:hover {
+	color:#fff;
+}
+
+.close {
+	bottom: -70px;
+}
+
+.close nav {
+	left: 0;
+}
+
+.nav-up {
+  bottom: -70px;
+}

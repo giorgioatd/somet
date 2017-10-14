@@ -1,0 +1,189 @@
+.navbar-toggle {
+	margin:14px 12px 0 0;
+}
+/*------- INFO ---------*/
+
+.btn-info {
+  color: $color-dark;
+  background-color: $color-primary;
+  border-color: $color-secondary;
+}
+
+.btn-info:focus,
+.btn-info.focus {
+  color: $color-dark;
+  background-color: $color-primary;
+  border-color: $color-secondary;
+}
+.btn-info:hover {
+  color: $color-secondary;
+  background-color: $color-light;
+  border-color: $color-secondary;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: $color-light;
+  background-color: $color-secondary;
+  border-color: $color-light;
+}
+
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: $color-light;
+  background-color: $color-secondary;
+  border-color: $color-light;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+
+/*------- CONTACTS ---------*/
+
+.btn-contacts {
+  color: $color-secondary;
+  background-color: $color-light;
+  border-color: $color-secondary;
+}
+.btn-contacts:focus,
+.btn-contacts.focus {
+  color: $color-light;
+  background-color: $color-light;
+  border-color: $color-secondary;
+}
+.btn-contacts:hover {
+  color: $color-light;
+  background-color: $color-secondary;
+  border-color: $color-light;
+}
+.btn-contacts:active,
+.btn-contacts.active,
+.open > .dropdown-toggle.btn-contacts {
+  color: $color-dark;
+  background-color: $color-primary;
+  border-color: $color-dark;
+}
+.btn-contacts:active:hover,
+.btn-contacts.active:hover,
+.open > .dropdown-toggle.btn-contacts:hover,
+.btn-contacts:active:focus,
+.btn-contacts.active:focus,
+.open > .dropdown-toggle.btn-contacts:focus,
+.btn-contacts:active.focus,
+.btn-contacts.active.focus,
+.open > .dropdown-toggle.btn-contacts.focus {
+  color: $color-dark;
+  background-color: $color-primary;
+  border-color: $color-dark;
+}
+.btn-contacts:active,
+.btn-contacts.active,
+.open > .dropdown-toggle.btn-contacts {
+  background-image: none;
+}
+.btn-contacts.disabled:hover,
+.btn-contacts[disabled]:hover,
+fieldset[disabled] .btn-contacts:hover,
+.btn-contacts.disabled:focus,
+.btn-contacts[disabled]:focus,
+fieldset[disabled] .btn-contacts:focus,
+.btn-contacts.disabled.focus,
+.btn-contacts[disabled].focus,
+fieldset[disabled] .btn-contacts.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-contacts .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+
+/*------- DOWNLOAD ---------*/
+
+.btn-downloads {
+  color: $color-light;
+  background-color: $color-secondary;
+  border-color: $color-light;
+  margin-left:-10px;
+}
+.btn-downloads:focus,
+.btn-downloads.focus {
+  color: $color-secondary;
+  background-color: $color-light;
+  border-color: $color-secondary;
+}
+.btn-downloads:hover {
+  color: $color-secondary;
+  background-color: $color-light;
+  border-color: $color-secondary;
+}
+.btn-downloads:active,
+.btn-downloads.active,
+.open > .dropdown-toggle.btn-downloads {
+  color: $color-dark;
+  background-color: $color-primary;
+  border-color: $color-dark;
+}
+.btn-downloads:active:hover,
+.btn-downloads.active:hover,
+.open > .dropdown-toggle.btn-downloads:hover,
+.btn-downloads:active:focus,
+.btn-downloads.active:focus,
+.open > .dropdown-toggle.btn-downloads:focus,
+.btn-downloads:active.focus,
+.btn-downloads.active.focus,
+.open > .dropdown-toggle.btn-downloads.focus {
+  color: $color-dark;
+  background-color: $color-primary;
+  border-color: $color-dark;
+}
+.btn-downloads:active,
+.btn-downloads.active,
+.open > .dropdown-toggle.btn-contacts {
+  background-image: none;
+}
+.btn-downloads.disabled:hover,
+.btn-downloads[disabled]:hover,
+fieldset[disabled] .btn-downloads:hover,
+.btn-downloads.disabled:focus,
+.btn-downloads[disabled]:focus,
+fieldset[disabled] .btn-downloads:focus,
+.btn-downloads.disabled.focus,
+.btn-downloads[disabled].focus,
+fieldset[disabled] .btn-downloads.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-downloads .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+
+a.downloadcontact {
+	color:$color-light;
+}

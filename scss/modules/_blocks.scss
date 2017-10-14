@@ -1,0 +1,214 @@
+/* Blocks */
+
+.block{
+	padding:15px;
+	margin-bottom:15px;
+
+	h3{
+		margin-top:0;
+		padding-top:0;
+	}
+
+}
+
+.block-light{
+	@extend .block;
+	background-color:$color-light;
+	color:$color-secondary;
+	@include add-border(1px, $color-secondary, all);
+	@include border-radius(5px);
+
+	i{
+		color:$color-dark;
+		@include add-border(1px, $color-secondary, all);
+		@include border-radius(4px);
+	}
+
+	h3 {
+		color:$color-dark;
+	}
+}
+
+.block-lighter {
+	@extend .block;
+	background-color:$color-light;
+	color:$color-dark;
+	@include add-border(1px, $color-primary, all);
+	@include border-radius(5px);
+
+	i{
+		color:$color-dark;
+		@include add-border(1px, $color-primary, all);
+		@include border-radius(4px);
+	}
+
+	h3 {
+		color:$color-dark;
+	}
+}
+
+.block-primary {
+	@extend .block;
+	background-color:$color-primary;
+	color:$color-dark;
+	@include add-border(1px, $color-secondary, all);
+	@include border-radius(5px);
+
+	i{
+		color:$color-dark;
+		@include add-border(1px, $color-secondary, all);
+		@include border-radius(4px);
+	}
+
+	h3 {
+		color:$color-dark;
+	}
+
+	a:hover, {
+		color:$color-dark;
+		@include add-border(1px, $color-dark, bottom);
+	}
+
+	a:active,
+	a:focus {
+		color:$color-light;
+		@include add-border(1px, $color-light, bottom);
+	}
+}
+
+i.inoborder{
+		@include add-border(0px, $color-secondary, all);
+		@include border-radius(0);
+	}
+
+.block-secondary{
+	@extend .block;
+	background-color:$color-secondary;
+	color:$color-dark;
+	@include add-border(1px, $color-primary, all);
+	@include border-radius(5px);
+
+	i{
+		color:$color-secondary;
+		@include add-border(1px, $color-secondary, all);
+		@include border-radius(4px);
+	}
+
+	h3 {
+		color:$color-secondary;
+	}
+
+}
+
+.block-dark{
+	@extend .block;
+	background-color:$color-dark;
+	color:$color-primary;
+	@include add-border(1px, $color-primary, all);
+	@include border-radius(5px);
+}
+
+.block-bio {
+	@extend .block;
+	border: none;
+	background-color:$color-light;
+	color:$color-secondary;
+}
+
+
+.block-center{
+	text-align:center !important;
+}
+
+.block-border-secondary {
+	@include add-border(1px, $color-secondary, all);
+	@include border-radius(5px);
+}
+
+.locationadd {
+	padding:0;
+
+	h3 {
+		background-color:$color-secondary;
+		color:$color-light;
+		margin-bottom:0;
+		padding: 10px;
+		text-align:center;
+		@include add-border(1px, $color-secondary, all);
+	}
+
+	.block-content {
+		@include add-border(1px, $color-secondary, all);
+		margin-top:-1px;
+
+
+		ul {
+			padding: 10px;
+
+			li {
+				padding: 5px 15px;
+				color:$color-dark !important;
+
+			}
+
+			li:first-child {
+				margin-bottom:-3px;
+				padding-bottom: 5px;
+			}
+
+		}
+
+	}
+}
+
+a.linksoc {
+  	color:$color-dark !important;
+  	@include add-border(1px, $color-dark, bottom);
+  	border-bottom-style:dashed;
+  }
+a.linksoc:hover {
+  	color:$color-secondary !important;
+  	@include add-border(1px, $color-secondary, bottom);
+  	border-bottom-style:solid;
+  	text-decoration: none;
+  }
+a.linksoc:active {
+  	color:$color-primary !important;
+  	border-bottom-style:none;
+  }
+
+i.fa.fa-check-square-o {
+	margin-left:-20px;
+}
+
+ul.certif li {
+	margin-top: 30px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.numbern a {
+	color: #e8c !important;
+	@include add-border(1px, #e8c, bottom);
+	border-bottom-style:dashed;
+}
+
+.numbern a:hover {
+	color: $color-dark !important;
+	@include add-border(1px, #e8c, bottom);
+	border-bottom-style:solid;
+}
+
+.numbern a:visited {
+	color: #e8c !important;
+	@include add-border(1px, #e8c, bottom);
+	border-bottom-style:dashed;
+}
+
+.list-location {
+
+	h4 {
+		padding-bottom:5px;
+		border-bottom:1px solid $color-dark;
+	}
+}

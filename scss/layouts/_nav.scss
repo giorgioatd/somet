@@ -1,0 +1,89 @@
+.navbar-inverse {
+	@include add-border(1px, $color-light, 'bottom');
+	background-color:$color-secondary;
+	margin-bottom:60px;
+	min-height:40px;
+	color:$color-primary;
+	font-size:$base-font-size*1.2 !important;
+	
+	.navbar-header > ul > li > a {
+		padding-right: 10px;
+		padding-left: 10px;
+		
+	}
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:$color-primary;
+}
+
+.navbar-inverse	ul {
+		margin-left: 0;
+
+		li {
+			
+
+			a{
+				padding-right:11px;
+				padding-left:11px;
+			}			
+		}	
+}
+
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:focus {
+	background:$color-dark !important;
+	color:$color-light !important;
+}
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav li a .active,
+.navbar-inverse .navbar-nav li a .active:hover,
+.navbar-inverse .navbar-nav li a .active:focus
+ {
+	background:$color-dark !important;
+	color:$color-primary;
+}
+
+
+
+.navbar-inverse .navbar-toggle {
+	border-color: $color-primary;
+	color: $color-primary;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	border-color: $color-light;
+	background-color: $color-dark;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: $color-light;
+}
+
+.nmobs {
+position: fixed !important;
+	right: 0 !important;
+}
+
+.navbar-brand {
+	
+color: $color-primary !important;
+display: block;
+padding:15px 10px;
+font-size: 2rem;
+}
+
+.navbar-brand:hover {
+	background-color: $color-dark !important;
+color: $color-light !important;
+}
+
+.nav-active {
+	background-color: $color-dark !important;
+}
+
+.nmob {
+	float:left !important;
+}

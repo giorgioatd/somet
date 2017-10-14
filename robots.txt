@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.html
+Sitemap: http://www.somatoemozionale.it/sitemap.xml

@@ -1,0 +1,19 @@
+
+
+.modal-body {
+	background-color:$color-light;
+	font-family:$base-font-family;
+	color:$color-dark;
+}
+
+.modal-header {
+	@extend .modal-body;
+	font-family:$title-font-family;
+	@include add-border(1px, silver, bottom);
+	@include border-radius(5px 5px 0 0);
+	}
+
+.listbt {
+		border-top-style: dotted;
+		border-top-width: 1px;
+	}

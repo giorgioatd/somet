@@ -1,0 +1,15 @@
+body{
+	position: relative;
+	font-family:$base-font-family;
+	font-size:$base-font-size;
+	line-height:1.7em;
+	color:$base-font-color;
+}
+
+a{
+	color:$color-primary;
+}
+
+ul,li{
+	list-style:none;
+}
