@@ -12,7 +12,7 @@ title: News
           <li>
             <a class="postList-link" href="{{ post.url }}">
               <div class="thumbnail">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Aspect_ratio_-_4x3.svg/2000px-Aspect_ratio_-_4x3.svg.png" alt="Goat">
+                <img src="{% if post.cover.img %}{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ post.cover.img }}{% else %}{% endif %}" alt="{{ post.cover.alt }}">
                 <div class="caption">
                   <h2>{{ post.title }}</h2>
                   <p><span class="text-uppercase"><!-- Whitespace added for readability -->
