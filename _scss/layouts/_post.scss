@@ -51,10 +51,24 @@ aside.navasidePost {
     }
 
   }
+
+  a.disabled {
+    pointer-events: none!important;
+    cursor: default!important;
+    div.navasideBox {
+      border: 0!important;
+    }
+
+  }
   div.navasideBox {
     padding: 10px;
     background-color: $color-lightest;
     border: 1px solid $color-lighter;
+
+    @media (min-width: 768px) {
+      border: 0;
+    }
+
     p {
       margin:0;
 
@@ -64,8 +78,12 @@ aside.navasidePost {
     }
   }
 
+
   a:hover div.navasideBox {
     background-color: $color-light;
+  }
+  a.disabled:hover div.navasideBox {
+    background-color: inherit;
   }
 
   i.fa-arrow-circle-o-left {

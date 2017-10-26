@@ -2,7 +2,7 @@
 	background:url($showcase-image) no-repeat top center;
 	background-color:$color-light;
     background-attachment: fixed;
-    padding-top:100px;
+    padding-top:150px!important;
     padding-bottom: 50px;
     color: $color-primary;
 }
@@ -64,8 +64,8 @@
 
 .section-carousel {
 	@extend .section-dark;
-    padding-top:100px;
-    padding-bottom: 50px;
+    padding-top:41px;
+    padding-bottom: 0;
 
     h1 {
     	display:none;
@@ -75,6 +75,10 @@
 
 .section-contacts {
 	@extend .section-light;
+	li.downloads {
+		padding: 5px 15px 5px 25px!important;
+	}
+
 }
 
 #colophon, #privacy {
@@ -120,5 +124,5 @@
 
 .secpt {
 	position:relative;
-	padding-top:100px;
+	padding-top: 60px;
 }
