@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Osteopatia e componente emozionale"
+title: "Componente emozionale"
 date: 2016-10-06
 meta: "somato-emozionale."
 cover:

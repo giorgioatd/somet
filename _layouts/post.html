@@ -1,28 +1,85 @@
 ---
-layout: news
+layout: default
 ---
-<section id="showcase" class="showcase secpt">
-<div class="container">
-  <div class="row">
+<article id="art-{{ page.date | date: "%Y-%-m-%-d" }}" class="articlePost">
 
+  <section id="showcasePost" class="showcasePost secpt" style="{% if page.cover %}background-image: url({{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ page.cover.img }});{% else %}{% endif %}">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-1 col-md-2 col-lg-3">
+        </div>
+        <div class="col-xs-12 tidl col-sm-10 col-md-8 col-lg-6">
+          <p class="text-uppercase text-center"><!-- Whitespace added for readability -->
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}gennaio
+          {% when '2' %}febbraio
+          {% when '3' %}marzo
+          {% when '4' %}aprile
+          {% when '5' %}maggio
+          {% when '6' %}giugno
+          {% when '7' %}luglio
+          {% when '8' %}agosto
+          {% when '9' %}settembre
+          {% when '10' %}ottobre
+          {% when '11' %}novembre
+          {% when '12' %}dicembre
+        {% endcase %}
+        {{ page.date | date: "%Y" }}</p>
+            <h1>{{ page.title }}</h1>
+            <p class="lead">{{ page.meta }}</p>
+        </div>
+        <div class="col-xs-12 col-sm-1 col-md-2 col-lg-3">
+        </div>
+      </div>
+    </div><!-- /.container -->
+  </section>
 
-  <div class="col-xs-12">
-    <div class="media-object block logo">
-    <img src="img/logo90.png" class="img-rounded img-responsive">
+  <section id="bodyPost" class="bodyPost">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-2">
+        </div>
+        <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+
+          {{ content | smartify }}
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cJoXXZIaoB8" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+<aside id="navasidePost" class="navasidePost">
+  <div class="container-fluid ">
+    <div class="row">
+      <a href="#">
+        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4 navasideBox">
+          <p class="text-left text-uppercase">
+            <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Precedente
+          </p>
+        </div>
+        <div class="col-xs-0 col-sm-12 col-md-2">
+
+        </div>
+      </a>
+      <a href="#">
+        <div class="col-xs-6 col-sm-5 col-md-4 navasideBox">
+          <p class="text-right text-uppercase">
+            Successivo<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-2">
+        </div>
+      </a>
     </div>
   </div>
-
-  <div class="col-xs-0 col-sm-1 col-md-2 col-lg-0">
-  </div>
-  <div class="col-xs-12 tidl col-sm-10 col-md-8 col-lg-12">
-      <h1>{{ site.title }}</h1>
-      <p class="lead">{{ site.description }}</p>
-  </div>
-  <div class="col-xs-0 col-sm-1 col-md-2 col-lg-0">
-  </div>
-  </div>
-
-  </div><!-- /.container -->
-</section class="secpt">
-
-{{ content | smartify }}
+</aside>

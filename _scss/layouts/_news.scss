@@ -14,8 +14,8 @@ a.postList-link:hover {
 .thumbnail h2 {
   text-align: left;
   margin-bottom: 2px;
-  font-size: $base-font-size*1.5;
-  color: $color-secondary;
+  font-size: $base-font-size*1.6;
+  color: $color-dark;
 }
 
 .thumbnail p {
@@ -25,4 +25,8 @@ a.postList-link:hover {
 .thumbnail:hover h2,
 .thumbnail:hover p {
   color: $color-secondary;
+}
+
+.thumbnail img {
+  border-radius: 3px 3px 0 0;
 }
