@@ -28,12 +28,22 @@ exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemf
 # Plugins
 #whitelist: []
 gems:
+  - jekyll-paginate
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: "notizie/page:num/"
+prevpage: "&laquo Più nuovi"
+nextpage: "Più vecchi &raquo"
 
 # Conversion
 markdown:    kramdown
 
 # Outputting
+permalink:     pretty
 timezone:      Europe/Rome
 
 # Services
