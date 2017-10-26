@@ -1,10 +1,16 @@
 ---
 layout: post
-title: "Trattamento del cranio"
+title: "Il cranio"
 date: 2016-09-27
-meta: "Il cranio è il primo punto di riferimento della terapia osteopatica. Esso è infatti fondamentale per l’equilibro del sistema muscolo-scheletrico. Si trattano diverse zone del cranio per liberare le tensioni accumulate sul corpo."
+meta: "Trattamento del cranio in osteopatia"
 cover:
+ img: v_cranio.png
+ imgt: v_cranio.png
+ alt: Trattamento del cranio
 author: {{site.author}}
 tag:
+video_link: FiVRLclVweU
 ---
-cranio
+Il cranio è il primo punto di riferimento della terapia osteopatica, esso è infatti fondamentale per l’equilibro del sistema muscolo-scheletrico.
+
+Si trattano diverse zone del cranio per liberare le tensioni accumulate sul corpo.

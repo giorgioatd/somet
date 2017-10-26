@@ -9,6 +9,7 @@ cover:
  alt: Mal di schiena
 author: {{site.author}}
 tag:
+video_link: cJoXXZIaoB8
 ---
 Il mal di schiena è uno dei sintomi più comuni causati da blocchi alla colonna vertebrale.
 

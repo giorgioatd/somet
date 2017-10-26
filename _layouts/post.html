@@ -39,47 +39,55 @@ layout: default
   <section id="bodyPost" class="bodyPost">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-2">
-        </div>
-        <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
 
           {{ content | smartify }}
+          {% if page.video_link %}
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cJoXXZIaoB8" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.video_link }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
-        </div>
-        <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2">
+          {% endif %}
         </div>
       </div>
     </div>
   </section>
 
 </article>
-
+<!-- Pagination links -->
 <aside id="navasidePost" class="navasidePost">
   <div class="container-fluid ">
     <div class="row">
-      <a href="#">
-        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
-        </div>
-        <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4 navasideBox">
+      {% if page.previous.url %}
+      <a tabindex="-1" href="{{ site.baseurl }}{{ page.previous.url }}">
+        <div class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 navasideBox">
           <p class="text-left text-uppercase">
-            <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Precedente
+            <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>{{ page.previous.title }}
           </p>
         </div>
-        <div class="col-xs-0 col-sm-12 col-md-2">
+      </a>
+      {% else %}
+      <a href="#" class="disabled col-xs-6 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 navasideBox">
+        <div class="col-6 navasideBox">
 
         </div>
       </a>
-      <a href="#">
-        <div class="col-xs-6 col-sm-5 col-md-4 navasideBox">
+
+      {% endif %}
+      {% if page.next.url %}
+      <a tabindex="-1" href="{{ site.baseurl }}{{ page.next.url }}">
+        <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4 navasideBox">
           <p class="text-right text-uppercase">
-            Successivo<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+            {{ page.next.title }}<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-2">
+      </a>
+      {% else %}
+      <a href="#" class="disabled">
+        <div class="col-6 navasideBox">
+
         </div>
       </a>
+      {% endif %}
     </div>
   </div>
 </aside>
