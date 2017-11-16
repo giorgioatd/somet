@@ -5,11 +5,12 @@
   <title>{% if page.type == "home"%}{{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <!-- Bootstrap core CSS -->
   <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}?{{ site.time | date: "%Y%m%d%H%M" }}">
   <!-- Custom styles for this template -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
-  <link href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}" rel="stylesheet">
-  <link href="{{ "/css/cookies.css" | prepend: site.baseurl }}" rel="stylesheet">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}{% link /assets/images/favicon.png %}">
+  <link href="{{ "/css/font-awesome.css" | absolute_url }}" rel="stylesheet">
+  <link href="{{ "/css/cookies.css" | absolute_url }}" rel="stylesheet">
+  <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" absolute_url }}">
   {% include seo.html %}
 </head>
+{{ "/assets/screenshot.jpg" | absolute_url }}
