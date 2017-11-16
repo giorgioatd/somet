@@ -4,6 +4,8 @@
   content="{% if page.layout == "post" %}{{ page.meta }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:type" content="{% if page.layout == "post" %}article{% else %}website{% endif %}" />
 <meta property="og:locale" content="it_IT" />
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="fb:app_id" content="145037209461543">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ page.cover.imgt }}" />
 <meta property="og:image:url" content="{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ page.cover.imgt }}" />
@@ -22,9 +24,6 @@
 <meta property="og:article:tag" content="quartu" />
 {% endif %}
 <!-- FB SEO -->
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="fb:app_id" content="145037209461543">
 
 {% if site.metalock == "off" %}
 <!-- TWITTER SEO -->
