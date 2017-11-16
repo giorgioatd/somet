@@ -126,3 +126,20 @@
 	position:relative;
 	padding-top: 60px;
 }
+
+.section-button {
+	background-color:$color-dark;
+	color:$color-primary;
+	padding: 0;
+
+	h2 {
+		padding-top: 30px!important;
+		margin-bottom: 30px!important;
+		border-bottom: dashed 1px;
+	}
+
+	&:hover {
+		background-color: $color-accent;
+	}
+
+}
