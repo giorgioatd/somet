@@ -1,0 +1,6 @@
+<url>
+  <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+  <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date: "%Y-%m-%d" }}{% else %}{{ post.date | date: "%Y-%m-%d" }}{% endif %}</lastmod>
+  <changefreq>{{ post.changefreq | default: "monthly" }}</changefreq>
+  <priority>{{ post.priority | default: 0.5 }}</priority>
+</url>

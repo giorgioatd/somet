@@ -22,7 +22,7 @@ sass:
 
 # Handling Reading
 include:      [".htaccess"]
-exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store"]
+exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store", "_drafts"]
 
 
 # Plugins
@@ -30,8 +30,6 @@ exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemf
 gems:
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Pagination
 paginate: 4
