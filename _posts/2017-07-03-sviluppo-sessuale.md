@@ -14,7 +14,7 @@ tags:
   mente
   ormoni
 ---
-Gli [1](http://www.gh.com) impulsi del desiderio sessuale non sono solo quelli dettati dal corpo, ma ancor di più quelli dettati dalla mente.
+Gli impulsi del desiderio sessuale non sono solo quelli dettati dal corpo, ma ancor di più quelli dettati dalla mente.
 
 I principi generali dello sviluppo sessuale sono comuni a tutti i mammiferi, e le neuroscienze evidenziano una somiglianza sempre maggiore anche nell'uomo.
 
