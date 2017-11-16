@@ -48,3 +48,5 @@ timezone:      Europe/Rome
 
 # Services
 #google_analytics: 'UA-XXXXXXXX-X'
+
+metalock: on
