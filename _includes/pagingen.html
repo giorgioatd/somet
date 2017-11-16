@@ -3,11 +3,11 @@
     <div class="row">
       <ul style="padding:0;">
         {% for post in paginator.posts %}
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-0 col-lg-3">
             <li>
               <a class="postList-link" href="{{ post.url }}">
                 <div class="thumbnail">
-                  <img src="{% if post.cover.img %}{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ post.cover.img }}{% else %}{% endif %}" alt="{{ post.cover.alt }}">
+                  <img src="{% if post.cover.imgt %}{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ post.cover.imgt }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ post.cover.img }}{% endif %}" alt="{{ post.cover.alt }}">
                   <div class="caption">
                     <h2>{{ post.title }}</h2>
                     <p><span class="text-uppercase"><!-- Whitespace added for readability -->
@@ -48,11 +48,11 @@
           <ul class="pager pagination-lg justify-content-center">
             {% if paginator.previous_page %}
             <li class="page-item">
-              <a class="page-link" href="{{ paginator.previous_page_path }}{{ paginator.next_page_path }}" tabindex="-1">{{ site.prevpage }}</a>
+              <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">{{ site.prevpage }}</a>
             </li>
             {% else %}
             <li class="page-item disabled hidden-xs-up">
-              <a class="page-link text-muted" href="#" tabindex="-1">{{ site.prevpage }}</a>
+              <a class="page-link text-muted" href="{{ paginator.previous_page_path }}" tabindex="-1">{{ site.prevpage }}</a>
             </li>
             {% endif %}
             {% if paginator.next_page %}

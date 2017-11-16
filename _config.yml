@@ -34,7 +34,7 @@ gems:
   - jekyll-sitemap
 
 # Pagination
-paginate: 5
+paginate: 4
 paginate_path: "notizie/page:num/"
 prevpage: "&laquo Più nuovi"
 nextpage: "Più vecchi &raquo"
