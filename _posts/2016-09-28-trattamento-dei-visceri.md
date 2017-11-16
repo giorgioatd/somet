@@ -8,7 +8,7 @@ cover:
  imgt: v_visceri.png
  alt: Trattamento dei visceri
 author: {{site.author}}
-tag:
+tags:
 video_link: oolmkFaeKaI
 ---
 I visceri sono gli organi interni come stomaco, fegato, intestino…

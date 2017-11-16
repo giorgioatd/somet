@@ -2,13 +2,13 @@
 layout: post
 title: "Mal di schiena"
 date: 2016-09-26
-meta: "Trattamento osteopatico del mal di schiena"
+meta: "Trattamento osteopatico del mal di schiena e distinzione dei sintomi"
 cover:
- img: sch.png
- imgt: sch.png
+ img: v_sch.png
+ imgt: v_sch.png
  alt: Mal di schiena
 author: {{site.author}}
-tag:
+tags:
 video_link: cJoXXZIaoB8
 ---
 Il mal di schiena è uno dei sintomi più comuni causati da blocchi alla colonna vertebrale.
