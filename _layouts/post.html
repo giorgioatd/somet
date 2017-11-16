@@ -3,7 +3,7 @@ layout: default
 ---
 <article id="art-{{ page.date | date: "%Y-%-m-%-d" }}" class="articlePost">
 
-  <section id="showcasePost" class="showcasePost secpt" style="{% if page.cover %}background-image: url({{ site.baseurl }}{% link /assets/images/imgpost/{{ page.cover.img }} %});{% else %}{% endif %}">
+  <section id="showcasePost" class="showcasePost secpt" style="{% if page.cover %}background-image: url({{ site.baseurl }}/assets/images/imgpost/{{ page.cover.img }});{% else %}{% endif %}">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-1 col-md-2 col-lg-3">
