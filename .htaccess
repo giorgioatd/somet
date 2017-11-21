@@ -1,0 +1,5 @@
+ErrorDocument 403 /errore/errore403
+ErrorDocument 404 /errore/errore404
+ErrorDocument 410 /errore/errore410
+ErrorDocument 500 /errore/errore500
+ErrorDocument 504 /errore/errore504
