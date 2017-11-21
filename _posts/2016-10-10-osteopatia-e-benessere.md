@@ -8,7 +8,7 @@ cover:
  imgt: v_benessere.png
  alt: Osteopatia e benessere
 author: {{site.author}}
-tags:
+tags: [allergie, intolleranze, pelle]
 video_link: faBepUNfGwk
 ---
-La disfunzione osteopatia con blocco corrispondente ai reni mostra lo schema delle allergie e delle intolleranze, dei disturbi della pelle, del polmone, delle vie aeree superiori.
+La disfunzione osteopatica con blocco corrispondente ai reni mostra lo schema delle allergie e delle intolleranze, dei disturbi della pelle, del polmone, delle vie aeree superiori.

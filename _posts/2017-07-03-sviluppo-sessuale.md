@@ -8,11 +8,7 @@ cover:
  img: 17_sviluppoSessuale.jpg
  imgt: 17_sviluppoSessuale_m.jpg
  alt: "Sviluppo sessuale"
-tags:
-  sesso
-  impulsi
-  mente
-  ormoni
+tags: [sesso, impulsi, mente, ormoni]
 ---
 Gli impulsi del desiderio sessuale non sono solo quelli dettati dal corpo, ma ancor di più quelli dettati dalla mente.
 
