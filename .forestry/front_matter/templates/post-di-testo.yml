@@ -53,6 +53,11 @@ fields:
 - name: author
   label: Author
   type: field_group
+  fields:
+  - type: select
+    config:
+      source:
+        type: datafiles
   hidden: false
   default: ''
 - name: tags
