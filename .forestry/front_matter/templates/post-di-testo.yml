@@ -10,6 +10,17 @@ fields:
   default: post
   config:
     required: true
+- type: select
+  name: author
+  config:
+    source:
+      type: datafiles
+      file: _data-authors-yml
+      path: authors
+    required: true
+  label: Autore
+  hidden: false
+  default: daniele
 - name: title
   label: Titolo
   type: text
@@ -57,13 +68,3 @@ fields:
   type: tag_list
   hidden: false
   default: ''
-- type: select
-  name: author
-  config:
-    source:
-      type: datafiles
-      file: _data-authors-yml
-      path: authors
-    required: true
-  label: Autore
-  hidden: true
