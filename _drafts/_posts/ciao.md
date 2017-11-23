@@ -16,8 +16,6 @@ ciao
 
 sa
 
-![](/uploads/2017/11/23/181644994.jpg)
-
-llilouioòuiòlòk   fg fke rjg ebge  e g
+![](/assets/img/imgpost/2017/11/23/181644994.jpg)llilouioòuiòlòk   fg fke rjg ebge  e g
 
 ![](/assets/img/profile.png)
