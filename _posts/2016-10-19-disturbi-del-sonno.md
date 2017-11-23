@@ -5,7 +5,7 @@ date: 2016-10-19
 meta: "Disturbi del sonno, insonnia, sonno leggero e risvegli durante la notte"
 cover:
  img: v_sonno.png
- imgt: v_sonno.png
+ imgw: v_sonno.png
  alt: I disturbi del sonno
 author: {{site.author}}
 tags:

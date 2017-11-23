@@ -7,8 +7,8 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="fb:app_id" content="145037209461543">
 <meta property="og:url" content="https://www.somatoemozionale.it{{ page.url }}" />
-<meta property="og:image" content="https://www.somatoemozionale.it/assets/images/{% if page.layout == "post" %}imgpost/{{ page.cover.imgt }}{% else %}logo90.png{% endif %}" />
-<meta property="og:image:url" content="https://www.somatoemozionale.it/assets/images/{% if page.layout == "post" %}imgpost/{{ page.cover.imgt }}{% else %}logo90.png{% endif %}" />
+<meta property="og:image" content="https://www.somatoemozionale.it/assets/img/{% if page.layout == "post" %}imgpost/{{ page.cover.imgw }}{% else %}logo90.png{% endif %}" />
+<meta property="og:image:url" content="https://www.somatoemozionale.it/assets/img/{% if page.layout == "post" %}imgpost/{{ page.cover.imgw }}{% else %}logo90.png{% endif %}" />
 <meta property="og:image:alt" content="{% if page.layout == "post" %}{{ page.cover.alt }}{% else %}{{ page.title }}{% endif %}" />
 {% if page.video_link %}<meta property="og:video" content="https://www.somatoemozionale.it{{ page.videolink }}" />{% endif %}
 {% if page.layout == "post" %}
@@ -29,7 +29,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.layout == "post" %}{{ page.meta }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo90.png">
+<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/logo90.png">
 
 <link rel="apple-touch-icon" sizes="57x57" href="/portale/resources/static/img/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/portale/resources/static/img/apple-icon-60x60.png">

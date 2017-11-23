@@ -5,7 +5,7 @@ date: 2016-10-21
 meta: "Indagine sul calo dell'umore e sulla depressione"
 cover:
  img: v_dep.png
- imgt: v_dep.png
+ imgw: v_dep.png
  alt: Depressione in osteopatia
 author: {{site.author}}
 tags: depressione

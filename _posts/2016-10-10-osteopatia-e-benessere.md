@@ -5,7 +5,7 @@ date: 2016-10-10
 meta: "Blocco osteopatico su allergie e intolleranze"
 cover:
  img: v_benessere.png
- imgt: v_benessere.png
+ imgw: v_benessere.png
  alt: Osteopatia e benessere
 author: {{site.author}}
 tags: [allergie, intolleranze, pelle]

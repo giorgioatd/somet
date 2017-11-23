@@ -6,7 +6,7 @@ date: 2017-04-29
 meta: "Gli effetti del testosterone sulla collera e differenze tra i sessi"
 cover:
  img: 17_testosterone.jpg
- imgt: 17_testosterone_m.jpg
+ imgw: 17_testosterone_m.jpg
  alt: "Testosterone"
 tags:
   testosterone

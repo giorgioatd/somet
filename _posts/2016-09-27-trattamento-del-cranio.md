@@ -5,7 +5,7 @@ date: 2016-09-27
 meta: "Trattamento del cranio in osteopatia nelle diverse fasi della terapia"
 cover:
  img: v_cranio.png
- imgt: v_cranio.png
+ imgw: v_cranio.png
  alt: Trattamento del cranio
 author: {{site.author}}
 tags:

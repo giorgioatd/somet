@@ -5,7 +5,7 @@ date: 2016-10-06
 meta: "Gli stati emozionali e il comportamento"
 cover:
  img: v_emoz.png
- imgt: v_emoz.png
+ imgw: v_emoz.png
  alt: La componente emozionale
 author: {{site.author}}
 tags:

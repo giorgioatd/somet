@@ -5,7 +5,7 @@ date: 2016-09-26
 meta: "Trattamento osteopatico del mal di schiena e distinzione dei sintomi"
 cover:
  img: v_sch.png
- imgt: v_sch.png
+ imgw: v_sch.png
  alt: Mal di schiena
 author: {{site.author}}
 tags:

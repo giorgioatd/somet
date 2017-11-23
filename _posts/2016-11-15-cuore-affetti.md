@@ -6,7 +6,7 @@ date: 2016-11-15
 meta: "Origine dei problemi affettivi da lesioni osteopatiche"
 cover:
  img: v_cuore.png
- imgt: v_cuore.png
+ imgw: v_cuore.png
  alt: Depressione in osteopatia
 tags:
   cuore

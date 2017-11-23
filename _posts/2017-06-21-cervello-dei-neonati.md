@@ -6,7 +6,7 @@ date: 2017-06-21
 meta: "Sviluppo e maturazione del cervello nei primi mesi di vita"
 cover:
  img: 17_cervNeonati.jpg
- imgt: 17_cervNeonati_m.jpg
+ imgw: 17_cervNeonati_m.jpg
  alt: "Cervello neonati"
 tags:
   neonati

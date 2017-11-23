@@ -6,7 +6,7 @@ date: 2016-12-12
 meta: "Una varietà di sintomi che richiede un'analisi attenta"
 cover:
  img: v_fmSintomi.png
- imgt: v_fmSintomi.png
+ imgw: v_fmSintomi.png
  alt: "Fibromialgia: indagare i sintomi"
 tags:
   fibromialgia

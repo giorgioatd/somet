@@ -6,7 +6,7 @@ date: 2016-12-01
 meta: "La fibromialgia nel quotidiano"
 cover:
  img: v_fmImpatto.png
- imgt: v_fmImpatto.png
+ imgw: v_fmImpatto.png
  alt: "Fibromialgia: impatto sulla qualità della vita"
 tags:
   fibromialgia

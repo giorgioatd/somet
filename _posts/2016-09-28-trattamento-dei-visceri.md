@@ -5,7 +5,7 @@ date: 2016-09-28
 meta: "Il trattamento dei visceri e loro legami con le tensioni osteopatiche"
 cover:
  img: v_visceri.png
- imgt: v_visceri.png
+ imgw: v_visceri.png
  alt: Trattamento dei visceri
 author: {{site.author}}
 tags:

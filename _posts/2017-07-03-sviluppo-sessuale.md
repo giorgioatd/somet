@@ -6,7 +6,7 @@ date: 2017-07-03
 meta: "Ruolo della mente e del DNA sugli impulsi della sessualità"
 cover:
  img: 17_sviluppoSessuale.jpg
- imgt: 17_sviluppoSessuale_m.jpg
+ imgw: 17_sviluppoSessuale_m.jpg
  alt: "Sviluppo sessuale"
 tags: [sesso, impulsi, mente, ormoni]
 ---

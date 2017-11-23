@@ -6,7 +6,7 @@ date: 2017-10-16
 meta: "L'influenza delle emozioni sul comportamento"
 cover:
  img: 17_influenzaComp.jpg
- imgt: 17_influenzaComp_m.jpg
+ imgw: 17_influenzaComp_m.jpg
  alt: "Influenza delle emozioni sul comportamento"
 tags: [emozioni, automatismi, comportamento, mente]
 ---

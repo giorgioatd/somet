@@ -6,7 +6,7 @@ date: 2017-01-09
 meta: "Analisi e rilascio delle tensioni accumulate"
 cover:
  img: v_fmTrattamento.png
- imgt: v_fmTrattamento.png
+ imgw: v_fmTrattamento.png
  alt: "Fibromialgia: il trattamento"
 tags:
   fibromialgia
