@@ -3,7 +3,7 @@ layout: post
 author: {{site.author}}
 title: "Origine dello sviluppo sessuale"
 date: 2017-07-03
-meta: "Ruolo della mente e del DNA sugli impulsi della sessualità"
+meta: "Ruolo della mente sugli impulsi della sessualità"
 cover:
  img: 17_sviluppoSessuale.jpg
  imgw: 17_sviluppoSessuale_m.jpg
