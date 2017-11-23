@@ -30,6 +30,7 @@ exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemf
 gems:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-compress-images
 
 # Pagination
 paginate: 4
