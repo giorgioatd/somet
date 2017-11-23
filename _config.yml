@@ -22,7 +22,7 @@ sass:
 
 # Handling Reading
 include:      [".htaccess"]
-exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store", "_drafts"]
+exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store", "_drafts", "_compress_images_cache.yml"]
 
 
 # Plugins
