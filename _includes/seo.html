@@ -6,11 +6,11 @@
 <meta property="og:locale" content="it_IT" />
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="fb:app_id" content="145037209461543">
-<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ page.cover.imgt }}" />
-<meta property="og:image:url" content="{{ site.url }}{{ site.baseurl }}/assets/images/imgpost/{{ page.cover.imgt }}" />
-<meta property="og:image:alt" content="{{ page.cover.alt }}" />
-{% if page.video_link %}<meta property="og:video" content="http://example.com/bond/trailer.swf" />{% endif %}
+<meta property="og:url" content="https://www.somatoemozionale.it{{ page.url }}" />
+<meta property="og:image" content="https://www.somatoemozionale.it/assets/images/{% if page.layout == "post" %}imgpost/{{ page.cover.imgt }}{% else %}logo90.png{% endif %}" />
+<meta property="og:image:url" content="https://www.somatoemozionale.it/assets/images/{% if page.layout == "post" %}imgpost/{{ page.cover.imgt }}{% else %}logo90.png{% endif %}" />
+<meta property="og:image:alt" content="{% if page.layout == "post" %}{{ page.cover.alt }}{% else %}{{ page.title }}{% endif %}" />
+{% if page.video_link %}<meta property="og:video" content="https://www.somatoemozionale.it{{ page.videolink }}" />{% endif %}
 {% if page.layout == "post" %}
 <meta property="og:article:author" content="{{ site.author.name }}" />
 <meta property="og:article:published_time" content="{{ page.date }}" />
@@ -23,7 +23,6 @@
 <meta property="og:article:tag" content="selargius" />
 <meta property="og:article:tag" content="quartu" />
 {% endif %}
-<!-- FB SEO -->
 
 {% if site.metalock == "off" %}
 <!-- TWITTER SEO -->
