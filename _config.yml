@@ -38,6 +38,11 @@ paginate_path: "notizie/pagina:num/"
 prevpage: "&laquo Più nuovi"
 nextpage: "Più vecchi &raquo"
 
+# feed
+feed:
+  url: https://www.somatoemozionale.it
+  path: feed.xml
+
 # Conversion
 markdown:    kramdown
 
