@@ -27,7 +27,7 @@ exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemf
 
 # Plugins
 #whitelist: []
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-compress-images
