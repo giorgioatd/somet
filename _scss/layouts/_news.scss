@@ -1,0 +1,40 @@
+.newsList {
+  background-color: $color-light;
+}
+
+a.postList-link:hover {
+  text-decoration: none;
+}
+
+.thumbnail {
+  padding: 0;
+  background-color: $color-lightest;
+}
+
+.thumbnail:hover {
+  background-color: $color-lighter;
+}
+
+.thumbnail h2 {
+  text-align: left;
+  margin-bottom: 2px;
+  font-size: $base-font-size*1.6;
+  color: $color-dark;
+}
+
+.thumbnail p {
+  color: $color-primary;
+}
+
+.thumbnail:hover h2,
+.thumbnail:hover p {
+  color: $color-secondary;
+}
+
+.thumbnail img {
+  border-radius: 3px 3px 0 0;
+}
+
+.pager li a {
+  border-radius: 0;
+}

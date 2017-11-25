@@ -1,0 +1,111 @@
+.showcasePost {
+  background-position: center;
+  background-color:$color-dark;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:150px;
+  padding-bottom: 0px;
+  color: $color-primary;
+  z-index: 10;
+  text-shadow:0px 5px 20px black;
+
+  @media (min-width: 468px) {
+    background-position: top;
+    background-size: cover;
+    padding-top:300px;
+  }
+
+  @media (min-width: 768px) {
+    background-position: 50% 25%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+  }
+
+   &:before {
+    content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    background: -moz-linear-gradient(top, rgba(209,231,219,0) 0%, rgba(92,122,105,0.31) 56%, rgba(36,69,50,0.56) 83%, rgba(0,36,16,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(209,231,219,0) 0%,rgba(92,122,105,0.31) 56%,rgba(36,69,50,0.56) 83%,rgba(0,36,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(209,231,219,0) 0%,rgba(92,122,105,0.31) 56%,rgba(36,69,50,0.56) 83%,rgba(0,36,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d1e7db', endColorstr='#002410',GradientType=0 ); /* IE6-9 */
+      }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: $base-font-size*2.2;
+      color: $color-lighter;
+    }
+
+    p {
+      color: $color-lighter;
+      text-shadow:0px 3px 5px black;
+    }
+}
+
+aside.navasidePost {
+  margin-top:50px;
+  margin-bottom: 20px;
+  a {
+    color: $color-primary;
+
+    &:hover {
+      color: black;
+    }
+
+  }
+
+  a.disabled {
+    pointer-events: none!important;
+    cursor: default!important;
+    div.navasideBox {
+      border: 0!important;
+    }
+
+  }
+  div.navasideBox {
+    height: 100px;
+    padding: 10px;
+    background-color: $color-lightest;
+    border: 0px solid $color-lighter;
+
+    @media (min-width: 768px) {
+      border: 0;
+    }
+
+    p {
+      margin:0;
+      font-size: $base-font-size*1.2563;
+
+      @media (min-width: 768px) {
+        text-align: center;
+      }
+    }
+  }
+
+
+  a:hover div.navasideBox {
+    background-color: $color-light;
+  }
+  a.disabled:hover div.navasideBox {
+    background-color: inherit;
+  }
+
+  i.fa-arrow-circle-o-left {
+    margin-right: 4px;
+  }
+
+  i.fa-arrow-circle-o-right {
+    margin-left: 4px;
+  }
+}
+
+.bodyPost {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

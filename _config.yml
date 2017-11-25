@@ -1,7 +1,7 @@
 # Site settings
 title: Somato Emozionale
 description: "Osteopatia somato-emozionale: principi di una metodica che aiuta a mantenere e promuovere l'equilibrio dell'organismo"
-url: "www.somatoemozionale.it"
+url: "https://www.somatoemozionale.it"
 
 # Serving
 baseurl: ""
@@ -14,7 +14,7 @@ author:
   google_plus: "https://plus.google.com/118404797640034455123"
   linkedin: "https://it.linkedin.com/in/daniele-pintus-21641235"
   youtube: "https://www.youtube.com/channel/UCaNws2LFrsHvtkJ1D9OjVQA"
-  number: "328 133 4639"
+  number: "+393281334639"
 
 # Sass
 sass:
@@ -22,19 +22,35 @@ sass:
 
 # Handling Reading
 include:      [".htaccess"]
-exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store"]
+exclude:      ["_scss", "node_modules", "vendor/bundle/", "vendor/cache/", "Gemfile", "Gemfile.lock", "vendor/gems/", "vendor/ruby/", "LICENSE", "README.md", "CNAME", "Vagrantfile", ".gitignore", ".DS_Store", "_drafts", "_compress_images_cache.yml"]
 
 
 # Plugins
 #whitelist: []
-gems:
-  - jekyll-seo-tag
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-compress-images
+
+# Pagination
+paginate: 4
+paginate_path: "notizie/pagina:num/"
+prevpage: "&laquo Più nuovi"
+nextpage: "Più vecchi &raquo"
+
+# feed
+feed:
+  url: https://www.somatoemozionale.it
+  path: feed.xml
 
 # Conversion
 markdown:    kramdown
 
 # Outputting
+permalink:     pretty
 timezone:      Europe/Rome
 
 # Services
 #google_analytics: 'UA-XXXXXXXX-X'
+
+metalock: on

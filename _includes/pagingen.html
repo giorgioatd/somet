@@ -1,0 +1,80 @@
+<section class="secpt">
+  <div class="container no-gutter">
+    <div class="row">
+      <ul style="padding:0;">
+        {% for post in paginator.posts %}
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-0 col-lg-3">
+            <li>
+              <a class="postList-link" href="{{ post.url }}">
+                <div class="thumbnail">
+                  <img
+                      src="{{ site.baseurl }}/assets/img/imgpost/{{ post.cover.imgw }}"
+                      srcset="{{ site.baseurl }}/assets/img/imgpost/{{ post.cover.imgw }} 400w,
+                              {{ site.baseurl }}/assets/img/imgpost/{{ post.cover.imgw }} 550w,
+                              {{ site.baseurl }}/assets/img/imgpost/{{ post.cover.imgw }} 720w,
+                              {{ site.baseurl }}/assets/img/imgpost/{{ post.cover.imgw }} 768w"
+                      alt="{{ post.cover.alt }}">
+                  <div class="caption">
+                    <h2>{{ post.title }}</h2>
+                    <p><span class="text-uppercase"><!-- Whitespace added for readability -->
+                  {% assign m = post.date | date: "%-m" %}
+                  {{ post.date | date: "%-d" }}
+                  {% case m %}
+                    {% when '1' %}gennaio
+                    {% when '2' %}febbraio
+                    {% when '3' %}marzo
+                    {% when '4' %}aprile
+                    {% when '5' %}maggio
+                    {% when '6' %}giugno
+                    {% when '7' %}luglio
+                    {% when '8' %}agosto
+                    {% when '9' %}settembre
+                    {% when '10' %}ottobre
+                    {% when '11' %}novembre
+                    {% when '12' %}dicembre
+                  {% endcase %}
+                  {{ post.date | date: "%Y" }}</span><br>{{ post.meta }}</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </div>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+</section>
+
+<!-- Pagination links -->
+<section id="navasidePost">
+  <div class="container">
+    <div class="row justified-content-center">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <nav id="paglinksgen" class="paglinks my-4" aria-label="Page navigation">
+          <ul class="pager pagination-lg justify-content-center">
+            {% if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">{{ site.prevpage }}</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled hidden-xs-up">
+              <a class="page-link text-muted" href="{{ paginator.previous_page_path }}" tabindex="-1">{{ site.prevpage }}</a>
+            </li>
+            {% endif %}
+            {% if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.next_page_path }}">{{ site.nextpage }}</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled hidden-xs-up">
+              <a class="page-link text-muted" href="{{ paginator.next_page_path }}">{{ site.nextpage }}</a>
+            </li>
+            {% endif %}
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+</section>

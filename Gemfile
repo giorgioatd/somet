@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.4.0'
+gem 'jekyll', '3.6.2'
 
 group :jekyll_plugins do
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-feed'
+  gem 'jekyll-paginate'
+  gem 'jekyll-compress-images'
 end
